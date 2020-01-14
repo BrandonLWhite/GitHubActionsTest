@@ -17,6 +17,7 @@ jobs:
       run: |
         npm config set _auth ${{ secrets.NPM_TOKEN }}
         npm config set registry https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual
+        npm config set always-auth true
     - name: yarn install and test
       run: |
         yarn
