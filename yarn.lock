@@ -2,6 +2,1179 @@
 # yarn lockfile v1
 
 
+"@sailshq/lodash@^3.10.2":
+  version "3.10.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@sailshq/lodash/-/lodash-3.10.4.tgz#2299648a81a67f4c6ee222c6cf8e261bd9c3fa50"
+  integrity sha1-IplkioGmf0xu4iLGz44mG9nD+lA=
+
+"@std/esm@^0.25.4":
+  version "0.25.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@std/esm/-/esm-0.25.5.tgz#6fc3f7309574bbff7b2593351c44c9848297721c"
+  integrity sha1-b8P3MJV0u/97JZM1HETJhIKXchw=
+
+"@types/body-parser@*":
+  version "1.17.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/body-parser/-/body-parser-1.17.1.tgz#18fcf61768fb5c30ccc508c21d6fd2e8b3bf7897"
+  integrity sha1-GPz2F2j7XDDMxQjCHW/S6LO/eJc=
+  dependencies:
+    "@types/connect" "*"
+    "@types/node" "*"
+
+"@types/connect@*":
+  version "3.4.33"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/connect/-/connect-3.4.33.tgz#31610c901eca573b8713c3330abc6e6b9f588546"
+  integrity sha1-MWEMkB7KVzuHE8MzCrxua59YhUY=
+  dependencies:
+    "@types/node" "*"
+
+"@types/express-jwt@0.0.42":
+  version "0.0.42"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/express-jwt/-/express-jwt-0.0.42.tgz#4f04e1fadf9d18725950dc041808a4a4adf7f5ae"
+  integrity sha1-TwTh+t+dGHJZUNwEGAikpK339a4=
+  dependencies:
+    "@types/express" "*"
+    "@types/express-unless" "*"
+
+"@types/express-serve-static-core@*":
+  version "4.17.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/express-serve-static-core/-/express-serve-static-core-4.17.1.tgz#82be64a77211b205641e0209096fd3afb62481d3"
+  integrity sha1-gr5kp3IRsgVkHgIJCW/Tr7YkgdM=
+  dependencies:
+    "@types/node" "*"
+    "@types/range-parser" "*"
+
+"@types/express-unless@*":
+  version "0.5.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/express-unless/-/express-unless-0.5.1.tgz#4f440b905e42bbf53382b8207bc337dc5ff9fd1f"
+  integrity sha1-T0QLkF5Cu/Uzgrgge8M33F/5/R8=
+  dependencies:
+    "@types/express" "*"
+
+"@types/express@*":
+  version "4.17.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/express/-/express-4.17.2.tgz#a0fb7a23d8855bac31bc01d5a58cadd9b2173e6c"
+  integrity sha1-oPt6I9iFW6wxvAHVpYyt2bIXPmw=
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
+    "@types/serve-static" "*"
+
+"@types/mime@*":
+  version "2.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/mime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
+  integrity sha1-3EiIQjEqfwdRSTEpBbXjwLBUx50=
+
+"@types/node@*":
+  version "13.1.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/node/-/node-13.1.6.tgz#076028d0b0400be8105b89a0a55550c86684ffec"
+  integrity sha1-B2Ao0LBAC+gQW4mgpVVQyGaE/+w=
+
+"@types/range-parser@*":
+  version "1.2.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
+  integrity sha1-fuMwunyq+5gJC+zoal7kQRWQTCw=
+
+"@types/serve-static@*":
+  version "1.13.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/@types/serve-static/-/serve-static-1.13.3.tgz#eb7e1c41c4468272557e897e9171ded5e2ded9d1"
+  integrity sha1-634cQcRGgnJVfol+kXHe1eLe2dE=
+  dependencies:
+    "@types/express-serve-static-core" "*"
+    "@types/mime" "*"
+
+ajv@^6.5.5:
+  version "6.10.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
+  integrity sha1-086gTWsBeyiUrWkED+yLYj60vVI=
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+argparse@^1.0.7:
+  version "1.0.10"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+  integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
+  dependencies:
+    sprintf-js "~1.0.2"
+
+asn1@~0.2.3:
+  version "0.2.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
+  integrity sha1-jSR136tVO7M+d7VOWeiAu4ziMTY=
+  dependencies:
+    safer-buffer "~2.1.0"
+
+assert-plus@1.0.0, assert-plus@^1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
+  integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
+
+async-limiter@~1.0.0:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
+  integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
+
+async@^1.4.0, async@^1.5.0:
+  version "1.5.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
+  integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
+
+async@^2.1.2, async@^2.1.4, async@^2.5.0, async@^2.6.0:
+  version "2.6.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
+  integrity sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8=
+  dependencies:
+    lodash "^4.17.14"
+
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
+attempt@^1.0.1:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/attempt/-/attempt-1.0.1.tgz#be7d752dee25f67e5816e82c1600f7edc45de300"
+  integrity sha1-vn11Le4l9n5YFugsFgD37cRd4wA=
+
+aws-sdk@^2.87.0:
+  version "2.603.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/aws-sdk/-/aws-sdk-2.603.0.tgz#0920756d2666f4fcfa7233841ef35cd04da81348"
+  integrity sha1-CSB1bSZm9Pz6cjOEHvNc0E2oE0g=
+  dependencies:
+    buffer "4.9.1"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sign2@~0.7.0:
+  version "0.7.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
+  integrity sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
+
+aws4@^1.8.0:
+  version "1.9.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
+  integrity sha1-fjPY99RJs/ZzzXLeuavcVS2+Uo4=
+
+axios@^0.18.0:
+  version "0.18.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+  integrity sha1-/z8N4ue10YDnV62YAA8Qgbh7zqM=
+  dependencies:
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
+
+b64u@^2.0.0:
+  version "2.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/b64u/-/b64u-2.0.0.tgz#a4f031643bdc54dd294041a12d17391d35ff02e8"
+  integrity sha1-pPAxZDvcVN0pQEGhLRc5HTX/Aug=
+
+backoff@^2.5.0:
+  version "2.5.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/backoff/-/backoff-2.5.0.tgz#f616eda9d3e4b66b8ca7fca79f695722c5f8e26f"
+  integrity sha1-9hbtqdPktmuMp/ynn2lXIsX44m8=
+  dependencies:
+    precond "0.2"
+
+balanced-match@^1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
+  integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+
+base64-js@^1.0.2:
+  version "1.3.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
+  integrity sha1-WOzoy3XdB+ce0IxzarxfrE2/jfE=
+
+bcrypt-pbkdf@^1.0.0:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
+  integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
+  dependencies:
+    tweetnacl "^0.14.3"
+
+bodhi-analytics@1.0.14:
+  version "1.0.14"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bodhi-analytics/-/bodhi-analytics-1.0.14.tgz#dbac3eb9041df5aaf5e9c60f723668927b7a0e74"
+  integrity sha1-26w+uQQd9ar16cYPcjZoknt6DnQ=
+  dependencies:
+    async "^1.5.0"
+    deep-extend "0.6.0"
+    node-uuid "^1.4.7"
+    superagent "^1.5.0"
+
+bodhi-config@^1.1.0:
+  version "1.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bodhi-config/-/bodhi-config-1.1.0.tgz#b493a9182975c168bdec6844ef10e2337c54cd5b"
+  integrity sha1-tJOpGCl1wWi97GhE7xDiM3xUzVs=
+  dependencies:
+    async "^2.5.0"
+    deepmerge "^1.4.4"
+    hjson "^2.4.3"
+    ini "^1.3.4"
+    js-yaml "^3.8.4"
+    lodash "^4.17.15"
+    properties "^1.2.1"
+
+bodhi-context@1.0.11, bodhi-context@^1.0.6:
+  version "1.0.11"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bodhi-context/-/bodhi-context-1.0.11.tgz#884e80accac8afb8be01cb67fad93bdeee718812"
+  integrity sha1-iE6ArMrIr7i+Actn+tk73u5xiBI=
+  dependencies:
+    deep-extend "0.6.0"
+    jmespath "^0.15.0"
+    jsonpath-plus "^0.16.0"
+
+bodhi-driver-superagent@^2.1.5:
+  version "2.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bodhi-driver-superagent/-/bodhi-driver-superagent-2.4.0.tgz#5a0514f40f788cb9c0449afd5edd9a0e2865bc2f"
+  integrity sha1-WgUU9A94jLnARJr9Xt2aDihlvC8=
+  dependencies:
+    async "^2.1.2"
+    attempt "^1.0.1"
+    backoff "^2.5.0"
+    deep-extend "^0.6.0"
+    lodash.foreach "^4.5.0"
+    measured "^1.0.0"
+    memory-streams "^0.1.0"
+    superagent "^3.8.3"
+
+bodhi-facts@^1.0.2:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bodhi-facts/-/bodhi-facts-1.0.2.tgz#240aa6d87de9deadd10febce48893d6004a3c6a7"
+  integrity sha1-JAqm2H3p3q3RD+vOSIk9YASjxqc=
+
+bodhi-properties@^1.0.5:
+  version "1.0.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bodhi-properties/-/bodhi-properties-1.0.5.tgz#3f19ec2142138da9115e54579c49b29e79a390a3"
+  integrity sha1-PxnsIUITjakRXlRXnEmynnmjkKM=
+
+brace-expansion@^1.1.7:
+  version "1.1.11"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
+  integrity sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=
+  dependencies:
+    balanced-match "^1.0.0"
+    concat-map "0.0.1"
+
+buffer-equal-constant-time@1.0.1:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
+  integrity sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
+
+buffer@4.9.1:
+  version "4.9.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/buffer/-/buffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
+  integrity sha1-bRu2AbB6TvztlwlBMgkwJ8lbwpg=
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+    isarray "^1.0.0"
+
+bunyan@^1.8.12, bunyan@^1.8.5:
+  version "1.8.12"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/bunyan/-/bunyan-1.8.12.tgz#f150f0f6748abdd72aeae84f04403be2ef113797"
+  integrity sha1-8VDw9nSKvdcq6uhPBEA74u8RN5c=
+  optionalDependencies:
+    dtrace-provider "~0.8"
+    moment "^2.10.6"
+    mv "~2"
+    safe-json-stringify "~1"
+
+caseless@~0.12.0:
+  version "0.12.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
+  integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+
+clone@2.x:
+  version "2.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
+
+combined-stream@^1.0.5, combined-stream@^1.0.6, combined-stream@~1.0.6:
+  version "1.0.8"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
+  dependencies:
+    delayed-stream "~1.0.0"
+
+component-emitter@^1.2.0:
+  version "1.3.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
+  integrity sha1-FuQHD7qK4ptnnyIVhT7hgasuq8A=
+
+component-emitter@~1.2.0:
+  version "1.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
+  integrity sha1-E3kY1teCg/ffemt8WmPhQOaUJeY=
+
+concat-map@0.0.1:
+  version "0.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
+  integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+
+cookie@^0.4.0:
+  version "0.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
+  integrity sha1-vrQ35wIrO21JAZ0IhmUwPr6cFLo=
+
+cookiejar@2.0.6:
+  version "2.0.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/cookiejar/-/cookiejar-2.0.6.tgz#0abf356ad00d1c5a219d88d44518046dd026acfe"
+  integrity sha1-Cr81atANHFohnYjURRgEbdAmrP4=
+
+cookiejar@^2.1.0:
+  version "2.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/cookiejar/-/cookiejar-2.1.2.tgz#dd8a235530752f988f9a0844f3fc589e3111125c"
+  integrity sha1-3YojVTB1L5iPmghE8/xYnjERElw=
+
+core-util-is@1.0.2, core-util-is@~1.0.0:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+  integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+
+csv-generate@^1.1.2:
+  version "1.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/csv-generate/-/csv-generate-1.1.2.tgz#ec6b00edaed6e59ad9c20582f4c364e28b146240"
+  integrity sha1-7GsA7a7W5ZrZwgWC9MNk4osUYkA=
+
+csv-parse@^1.3.3:
+  version "1.3.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/csv-parse/-/csv-parse-1.3.3.tgz#d1cfd8743c2f849a0abb2fd544db56695d19a490"
+  integrity sha1-0c/YdDwvhJoKuy/VRNtWaV0ZpJA=
+
+csv-stringify@^1.1.2:
+  version "1.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/csv-stringify/-/csv-stringify-1.1.2.tgz#77a41526581bce3380f12b00d7c5bbac70c82b58"
+  integrity sha1-d6QVJlgbzjOA8SsA18W7rHDIK1g=
+  dependencies:
+    lodash.get "~4.4.2"
+
+csv@^1.1.1:
+  version "1.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/csv/-/csv-1.2.1.tgz#5231edfc1c7152512ec45781076a7a97ff525c0c"
+  integrity sha1-UjHt/BxxUlEuxFeBB2p6l/9SXAw=
+  dependencies:
+    csv-generate "^1.1.2"
+    csv-parse "^1.3.3"
+    csv-stringify "^1.1.2"
+    stream-transform "^0.2.2"
+
+dashdash@^1.12.0:
+  version "1.14.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
+  integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
+  dependencies:
+    assert-plus "^1.0.0"
+
+debug@2, debug@^2.6.8:
+  version "2.6.9"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+  integrity sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
+  dependencies:
+    ms "2.0.0"
+
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+  dependencies:
+    ms "2.0.0"
+
+debug@^3.1.0:
+  version "3.2.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
+  integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
+  dependencies:
+    ms "^2.1.1"
+
+debug@^4.1.0:
+  version "4.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha1-O3ImAlUQnGtYnO4FDx1RYTlmR5E=
+  dependencies:
+    ms "^2.1.1"
+
+deep-extend@0.6.0, deep-extend@^0.6.0:
+  version "0.6.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
+  integrity sha1-xPp8lUBKF6nD6Mp+FTcxK3NjMKw=
+
+deepmerge@^1.4.4:
+  version "1.5.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
+  integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
+
+deepmerge@^2.1.1:
+  version "2.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha1-XT/yKgHAD2RUBaL7wX0HeKGAEXA=
+
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+detect-node@^2.0.3:
+  version "2.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
+  integrity sha1-AU7o+PZpxcWAI9pkuBecCDooxGw=
+
+dtrace-provider@^0.8.1, dtrace-provider@~0.8:
+  version "0.8.8"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/dtrace-provider/-/dtrace-provider-0.8.8.tgz#2996d5490c37e1347be263b423ed7b297fb0d97e"
+  integrity sha1-KZbVSQw34TR74mO0I+17KX+w2X4=
+  dependencies:
+    nan "^2.14.0"
+
+ecc-jsbn@~0.1.1:
+  version "0.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
+  integrity sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
+  dependencies:
+    jsbn "~0.1.0"
+    safer-buffer "^2.1.0"
+
+ecdsa-sig-formatter@1.0.11:
+  version "1.0.11"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz#ae0f0fa2d85045ef14a817daa3ce9acd0489e5bf"
+  integrity sha1-rg8PothQRe8UqBfao86azQSJ5b8=
+  dependencies:
+    safe-buffer "^5.0.1"
+
+es6-promise@^4.0.5:
+  version "4.2.8"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha1-TrIVlMlyvEBVPSduUQU5FD21Pgo=
+
+escape-regexp-component@^1.0.2:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/escape-regexp-component/-/escape-regexp-component-1.0.2.tgz#9c63b6d0b25ff2a88c3adbd18c5b61acc3b9faa2"
+  integrity sha1-nGO20LJf8qiMOtvRjFthrMO5+qI=
+
+esprima@^4.0.0:
+  version "4.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+  integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
+
+eventemitter2@^2.2.1:
+  version "2.2.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/eventemitter2/-/eventemitter2-2.2.2.tgz#407ea71c2020cd57538203ab7e7a6bdcfb7692d5"
+  integrity sha1-QH6nHCAgzVdTggOrfnpr3Pt2ktU=
+
+events@1.1.1:
+  version "1.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
+  integrity sha1-nr23Y1rQmccNzEwqH1AEKI6L2SQ=
+
+ewma@^2.0.1:
+  version "2.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ewma/-/ewma-2.0.1.tgz#9876c1c491ac5733c8666001a3961a04c97cf1e8"
+  integrity sha1-mHbBxJGsVzPIZmABo5YaBMl88eg=
+  dependencies:
+    assert-plus "^1.0.0"
+
+extend@3.0.0:
+  version "3.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/extend/-/extend-3.0.0.tgz#5a474353b9f3353ddd8176dfd37b91c83a46f1d4"
+  integrity sha1-WkdDU7nzNT3dgXbf03uRyDpG8dQ=
+
+extend@^3.0.0, extend@~3.0.2:
+  version "3.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
+
+extsprintf@1.2.0:
+  version "1.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/extsprintf/-/extsprintf-1.2.0.tgz#5ad946c22f5b32ba7f8cd7426711c6e8a3fc2529"
+  integrity sha1-WtlGwi9bMrp/jNdCZxHG6KP8JSk=
+
+extsprintf@1.3.0:
+  version "1.3.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+  integrity sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+
+extsprintf@^1.2.0:
+  version "1.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
+  integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
+
+fast-decode-uri-component@^1.0.0:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/fast-decode-uri-component/-/fast-decode-uri-component-1.0.1.tgz#46f8b6c22b30ff7a81357d4f59abfae938202543"
+  integrity sha1-Rvi2wisw/3qBNX1PWav66TggJUM=
+
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
+fast-json-stable-stringify@^2.0.0:
+  version "2.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
+  integrity sha1-h0v2nG9ATCtdmcSBNBOZ/VWJJjM=
+
+find-my-way@^1.13.0:
+  version "1.18.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/find-my-way/-/find-my-way-1.18.1.tgz#5db605eab7211ee6af7ab08eb4f568060aa8e9f6"
+  integrity sha1-XbYF6rchHuaverCOtPVoBgqo6fY=
+  dependencies:
+    fast-decode-uri-component "^1.0.0"
+    safe-regex "^1.1.0"
+    semver-store "^0.3.0"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
+  dependencies:
+    debug "=3.1.0"
+
+forever-agent@~0.6.1:
+  version "0.6.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
+  integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
+
+form-data@1.0.0-rc3:
+  version "1.0.0-rc3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/form-data/-/form-data-1.0.0-rc3.tgz#d35bc62e7fbc2937ae78f948aaa0d38d90607577"
+  integrity sha1-01vGLn+8KTeuePlIqqDTjZBgdXc=
+  dependencies:
+    async "^1.4.0"
+    combined-stream "^1.0.5"
+    mime-types "^2.1.3"
+
+form-data@^2.3.1:
+  version "2.5.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/form-data/-/form-data-2.5.1.tgz#f2cbec57b5e59e23716e128fe44d4e5dd23895f4"
+  integrity sha1-8svsV7XlniNxbhKP5E1OXdI4lfQ=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.6"
+    mime-types "^2.1.12"
+
+form-data@~2.3.2:
+  version "2.3.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
+  integrity sha1-3M5SwF9kTymManq5Nr1yTO/786Y=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.6"
+    mime-types "^2.1.12"
+
+formidable@^1.2.0, formidable@^1.2.1:
+  version "1.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/formidable/-/formidable-1.2.1.tgz#70fb7ca0290ee6ff961090415f4b3df3d2082659"
+  integrity sha1-cPt8oCkO5v+WEJBBX0s989IIJlk=
+
+formidable@~1.0.14:
+  version "1.0.17"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/formidable/-/formidable-1.0.17.tgz#ef5491490f9433b705faa77249c99029ae348559"
+  integrity sha1-71SRSQ+UM7cF+qdyScmQKa40hVk=
+
+getpass@^0.1.1:
+  version "0.1.7"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
+  integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
+  dependencies:
+    assert-plus "^1.0.0"
+
+glob@^6.0.1:
+  version "6.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/glob/-/glob-6.0.4.tgz#0f08860f6a155127b2fadd4f9ce24b1aab6e4d22"
+  integrity sha1-DwiGD2oVUSey+t1PnOJLGqtuTSI=
+  dependencies:
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "2 || 3"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+handle-thing@^1.2.5:
+  version "1.2.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
+  integrity sha1-/Xqtcmvxpf0W38KbL3pmAdJxOcQ=
+
+har-schema@^2.0.0:
+  version "2.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
+  integrity sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
+
+har-validator@~5.1.0:
+  version "5.1.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/har-validator/-/har-validator-5.1.3.tgz#1ef89ebd3e4996557675eed9893110dc350fa080"
+  integrity sha1-HvievT5JllV2de7ZiTEQ3DUPoIA=
+  dependencies:
+    ajv "^6.5.5"
+    har-schema "^2.0.0"
+
+hjson@^2.4.3:
+  version "2.4.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hjson/-/hjson-2.4.3.tgz#878578a45d13486ec364e11e642f57ff1a2ccbbe"
+  integrity sha1-h4V4pF0TSG7DZOEeZC9X/xosy74=
+
+hoek@2.x.x:
+  version "2.16.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
+  integrity sha1-ILt0A9POo5jpHcRxCo/xuCdKJe0=
+
+hotschedules-errors@1.0.5:
+  version "1.0.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hotschedules-errors/-/hotschedules-errors-1.0.5.tgz#b39067ccff6de4f4f3f7d5e72b13b4d75e625240"
+  integrity sha1-s5BnzP9t5PTz99XnKxO0115iUkA=
+  dependencies:
+    deep-extend "0.6.0"
+    string-template "^1.0.0"
+
+hotschedules-eventbus@^1.0.16:
+  version "1.0.16"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hotschedules-eventbus/-/hotschedules-eventbus-1.0.16.tgz#6392ae78a5d62fbef005bd33b43648864513457a"
+  integrity sha1-Y5KueKXWL77wBb0ztDZIhkUTRXo=
+  dependencies:
+    deep-extend "0.6.0"
+    eventemitter2 "^2.2.1"
+    shortid "^2.2.6"
+
+hotschedules-rules@1.0.4:
+  version "1.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hotschedules-rules/-/hotschedules-rules-1.0.4.tgz#7c628b930401c57fec2ffbf9844b2e0be6ec8577"
+  integrity sha1-fGKLkwQBxX/sL/v5hEsuC+bshXc=
+  dependencies:
+    bodhi-context "^1.0.6"
+    deep-extend "0.6.0"
+
+hotschedules-rules@^1.0.5:
+  version "1.0.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hotschedules-rules/-/hotschedules-rules-1.0.5.tgz#3b5d521121458b787fce800240f46a1208d04ad4"
+  integrity sha1-O11SESFFi3h/zoACQPRqEgjQStQ=
+  dependencies:
+    bodhi-context "1.0.11"
+    deep-extend "0.6.0"
+
+hotschedules-service-container@^2.4.0:
+  version "2.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hotschedules-service-container/-/hotschedules-service-container-2.4.0.tgz#ebbecdd2dca7e3f6a432dbda65c45a4315ee58a6"
+  integrity sha1-677N0tyn4/akMtvaZcRaQxXuWKY=
+  dependencies:
+    "@std/esm" "^0.25.4"
+    async "^2.1.4"
+    aws-sdk "^2.87.0"
+    bodhi-analytics "1.0.14"
+    bodhi-config "^1.1.0"
+    bodhi-context "1.0.11"
+    bodhi-driver-superagent "^2.1.5"
+    bodhi-facts "^1.0.2"
+    bodhi-properties "^1.0.5"
+    bunyan "^1.8.5"
+    deep-extend "^0.6.0"
+    deepmerge "^2.1.1"
+    hotschedules-errors "1.0.5"
+    hotschedules-eventbus "^1.0.16"
+    hotschedules-rules "1.0.4"
+    hs-authz-helper "^1.3.3"
+    hs-rsa-jwk-jwt "^1.0.4"
+    human-interval "^0.1.6"
+    include-all "^4.0.3"
+    is-plain-object "^2.0.4"
+    jsonwebtoken "^7.4.1"
+    jwks-rsa "^1.1.1"
+    lodash "^4.17.4"
+    lynx "^0.2.0"
+    moment "^2.17.1"
+    non-literal "0.0.3"
+    properties "^1.2.1"
+    pupa "^1.0.0"
+    resolve "^1.2.0"
+    restify "^7.1.1"
+    restify-cookies "^0.2.2"
+    restify-cors-middleware "1.1.99"
+    seamless-immutable "^7.0.1"
+    shortid "^2.2.6"
+    string-template "^1.0.0"
+    traverse "^0.6.6"
+    ws "^3.3.2"
+
+hpack.js@^2.1.6:
+  version "2.1.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hpack.js/-/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
+  integrity sha1-h3dMCUnlE/QuhFdbPEVoH63ioLI=
+  dependencies:
+    inherits "^2.0.1"
+    obuf "^1.0.0"
+    readable-stream "^2.0.1"
+    wbuf "^1.1.0"
+
+hs-authz-helper@^1.3.3:
+  version "1.3.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hs-authz-helper/-/hs-authz-helper-1.3.5.tgz#b77799e0fec6c72194a8a3698c7a03e9d7c41faf"
+  integrity sha1-t3eZ4P7GxyGUqKNpjHoD6dfEH68=
+  dependencies:
+    async "^2.6.0"
+    axios "^0.18.0"
+    hotschedules-rules "^1.0.5"
+    lodash "^4.17.11"
+
+hs-rsa-jwk-jwt@^1.0.4:
+  version "1.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/hs-rsa-jwk-jwt/-/hs-rsa-jwk-jwt-1.0.4.tgz#82095a241cd7773a8fd9d471c1cc3cd97815a5a1"
+  integrity sha1-gglaJBzXdzqP2dRxwcw82XgVpaE=
+  dependencies:
+    async "^2.6.0"
+    jsonwebtoken "^8.2.1"
+    jwks-rsa "^1.2.1"
+    node-cache "^4.2.0"
+    node-jose "^0.11.0"
+    request "^2.85.0"
+    rsa-pem-to-jwk "^1.1.3"
+    uuid "^3.2.1"
+
+http-deceiver@^1.2.7:
+  version "1.2.7"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/http-deceiver/-/http-deceiver-1.2.7.tgz#fa7168944ab9a519d337cb0bec7284dc3e723d87"
+  integrity sha1-+nFolEq5pRnTN8sL7HKE3D5yPYc=
+
+http-signature@^1.2.0:
+  version "1.3.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/http-signature/-/http-signature-1.3.1.tgz#739fe2f8897ba84798e3e54b699a9008a8724ff9"
+  integrity sha1-c5/i+Il7qEeY4+VLaZqQCKhyT/k=
+  dependencies:
+    assert-plus "^1.0.0"
+    jsprim "^1.2.2"
+    sshpk "^1.14.1"
+
+http-signature@~1.2.0:
+  version "1.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/http-signature/-/http-signature-1.2.0.tgz#9aecd925114772f3d95b65a60abb8f7c18fbace1"
+  integrity sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
+  dependencies:
+    assert-plus "^1.0.0"
+    jsprim "^1.2.2"
+    sshpk "^1.7.0"
+
+human-interval@^0.1.6:
+  version "0.1.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/human-interval/-/human-interval-0.1.6.tgz#0057973454764c3abcbeb2aed612fc9644e68488"
+  integrity sha1-AFeXNFR2TDq8vrKu1hL8lkTmhIg=
+
+ieee754@1.1.13, ieee754@^1.1.4:
+  version "1.1.13"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
+  integrity sha1-7BaFWOlaoYH9h9N/VcMrvLZwi4Q=
+
+include-all@^4.0.3:
+  version "4.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/include-all/-/include-all-4.0.3.tgz#65f06e8f11894b1a7b5ec1fc97e6b3392f7cfa75"
+  integrity sha1-ZfBujxGJSxp7XsH8l+azOS98+nU=
+  dependencies:
+    "@sailshq/lodash" "^3.10.2"
+    merge-dictionaries "^0.0.3"
+
+inflight@^1.0.4:
+  version "1.0.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
+  integrity sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+  dependencies:
+    once "^1.3.0"
+    wrappy "1"
+
+inherits@2, inherits@^2.0, inherits@^2.0.1, inherits@~2.0.1, inherits@~2.0.3:
+  version "2.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
+  integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+
+ini@^1.3.4:
+  version "1.3.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
+  integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+
+is-buffer@^2.0.2:
+  version "2.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/is-buffer/-/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
+  integrity sha1-PlcvI8hBGlz9lVfISeNmXgspBiM=
+
+is-plain-object@^2.0.4:
+  version "2.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  integrity sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc=
+  dependencies:
+    isobject "^3.0.1"
+
+is-typedarray@~1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
+  integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+isarray@0.0.1:
+  version "0.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+
+isarray@^1.0.0, isarray@~1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+  integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+
+isemail@1.x.x:
+  version "1.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/isemail/-/isemail-1.2.0.tgz#be03df8cc3e29de4d2c5df6501263f1fa4595e9a"
+  integrity sha1-vgPfjMPineTSxd9lASY/H6RZXpo=
+
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+isstream@~0.1.2:
+  version "0.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+  integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+
+jmespath@0.15.0, jmespath@^0.15.0:
+  version "0.15.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
+  integrity sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
+
+joi@^6.10.1:
+  version "6.10.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/joi/-/joi-6.10.1.tgz#4d50c318079122000fe5f16af1ff8e1917b77e06"
+  integrity sha1-TVDDGAeRIgAP5fFq8f+OGRe3fgY=
+  dependencies:
+    hoek "2.x.x"
+    isemail "1.x.x"
+    moment "2.x.x"
+    topo "1.x.x"
+
+js-yaml@^3.8.4:
+  version "3.13.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  integrity sha1-r/FRswv9+o5J4F2iLnQV6d+jeEc=
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+jsbn@~0.1.0:
+  version "0.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
+  integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+
+json-schema-traverse@^0.4.1:
+  version "0.4.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
+  integrity sha1-afaofZUTq4u4/mO9sJecRI5oRmA=
+
+json-schema@0.2.3:
+  version "0.2.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
+  integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
+
+json-stringify-safe@~5.0.1:
+  version "5.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
+  integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
+
+jsonpath-plus@^0.16.0:
+  version "0.16.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jsonpath-plus/-/jsonpath-plus-0.16.0.tgz#fe441b23f03ec6979a5603513988cd3edb7db5dc"
+  integrity sha1-/kQbI/A+xpeaVgNROYjNPtt9tdw=
+
+jsonwebtoken@^7.4.1:
+  version "7.4.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jsonwebtoken/-/jsonwebtoken-7.4.3.tgz#77f5021de058b605a1783fa1283e99812e645638"
+  integrity sha1-d/UCHeBYtgWheD+hKD6ZgS5kVjg=
+  dependencies:
+    joi "^6.10.1"
+    jws "^3.1.4"
+    lodash.once "^4.0.0"
+    ms "^2.0.0"
+    xtend "^4.0.1"
+
+jsonwebtoken@^8.2.1, jsonwebtoken@^8.5.1:
+  version "8.5.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
+  integrity sha1-AOceC431TCEhofJhN98igGc7zA0=
+  dependencies:
+    jws "^3.2.2"
+    lodash.includes "^4.3.0"
+    lodash.isboolean "^3.0.3"
+    lodash.isinteger "^4.0.4"
+    lodash.isnumber "^3.0.3"
+    lodash.isplainobject "^4.0.6"
+    lodash.isstring "^4.0.1"
+    lodash.once "^4.0.0"
+    ms "^2.1.1"
+    semver "^5.6.0"
+
+jsprim@^1.2.2:
+  version "1.4.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
+  integrity sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+  dependencies:
+    assert-plus "1.0.0"
+    extsprintf "1.3.0"
+    json-schema "0.2.3"
+    verror "1.10.0"
+
+jwa@^1.4.1:
+  version "1.4.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jwa/-/jwa-1.4.1.tgz#743c32985cb9e98655530d53641b66c8645b039a"
+  integrity sha1-dDwymFy56YZVUw1TZBtmyGRbA5o=
+  dependencies:
+    buffer-equal-constant-time "1.0.1"
+    ecdsa-sig-formatter "1.0.11"
+    safe-buffer "^5.0.1"
+
+jwks-rsa@^1.1.1, jwks-rsa@^1.2.1:
+  version "1.6.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jwks-rsa/-/jwks-rsa-1.6.1.tgz#235804e575603673160da892940d7c7ba140c38e"
+  integrity sha1-I1gE5XVgNnMWDaiSlA18e6FAw44=
+  dependencies:
+    "@types/express-jwt" "0.0.42"
+    debug "^4.1.0"
+    jsonwebtoken "^8.5.1"
+    limiter "^1.1.4"
+    lru-memoizer "^2.0.1"
+    ms "^2.1.2"
+    request "^2.88.0"
+
+jws@^3.1.4, jws@^3.2.2:
+  version "3.2.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/jws/-/jws-3.2.2.tgz#001099f3639468c9414000e99995fa52fb478304"
+  integrity sha1-ABCZ82OUaMlBQADpmZX6UvtHgwQ=
+  dependencies:
+    jwa "^1.4.1"
+    safe-buffer "^5.0.1"
+
+limiter@^1.1.4:
+  version "1.1.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/limiter/-/limiter-1.1.5.tgz#8f92a25b3b16c6131293a0cc834b4a838a2aa7c2"
+  integrity sha1-j5KiWzsWxhMSk6DMg0tKg4oqp8I=
+
+lodash.assign@^4.0.8:
+  version "4.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
+  integrity sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=
+
+lodash.clone@^4.3.2:
+  version "4.5.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.clone/-/lodash.clone-4.5.0.tgz#195870450f5a13192478df4bc3d23d2dea1907b6"
+  integrity sha1-GVhwRQ9aExkkeN9Lw9I9LeoZB7Y=
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
+lodash.fill@^3.2.2:
+  version "3.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.fill/-/lodash.fill-3.4.0.tgz#a3c74ae640d053adf0dc2079f8720788e8bfef85"
+  integrity sha1-o8dK5kDQU63w3CB5+HIHiOi/74U=
+
+lodash.flatten@^4.2.0:
+  version "4.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
+
+lodash.foreach@^4.5.0:
+  version "4.5.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.foreach/-/lodash.foreach-4.5.0.tgz#1a6a35eace401280c7f06dddec35165ab27e3e53"
+  integrity sha1-Gmo16s5AEoDH8G3d7DUWWrJ+PlM=
+
+lodash.get@~4.4.2:
+  version "4.4.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+
+lodash.includes@^4.3.0:
+  version "4.3.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.includes/-/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
+  integrity sha1-YLuYqHy5I8aMoeUTJUgzFISfVT8=
+
+lodash.intersection@^4.1.2:
+  version "4.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.intersection/-/lodash.intersection-4.4.0.tgz#0a11ba631d0e95c23c7f2f4cbb9a692ed178e705"
+  integrity sha1-ChG6Yx0OlcI8fy9Mu5ppLtF45wU=
+
+lodash.isboolean@^3.0.3:
+  version "3.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz#6c2e171db2a257cd96802fd43b01b20d5f5870f6"
+  integrity sha1-bC4XHbKiV82WgC/UOwGyDV9YcPY=
+
+lodash.isinteger@^4.0.4:
+  version "4.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz#619c0af3d03f8b04c31f5882840b77b11cd68343"
+  integrity sha1-YZwK89A/iwTDH1iChAt3sRzWg0M=
+
+lodash.isnumber@^3.0.3:
+  version "3.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz#3ce76810c5928d03352301ac287317f11c0b1ffc"
+  integrity sha1-POdoEMWSjQM1IwGsKHMX8RwLH/w=
+
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+
+lodash.isstring@^4.0.1:
+  version "4.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
+  integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
+
+lodash.merge@^4.3.5:
+  version "4.6.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha1-VYqlO0O2YeGSWgr9+japoQhf5Xo=
+
+lodash.omit@^4.2.1:
+  version "4.5.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
+  integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
+
+lodash.once@^4.0.0:
+  version "4.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
+  integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
+
+lodash.partialright@^4.1.3:
+  version "4.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.partialright/-/lodash.partialright-4.2.1.tgz#0130d80e83363264d40074f329b8a3e7a8a1cc4b"
+  integrity sha1-ATDYDoM2MmTUAHTzKbij56ihzEs=
+
+lodash.pick@^4.2.0:
+  version "4.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
+  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
+
+lodash.uniq@^4.2.1:
+  version "4.5.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
+
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.2.1:
+  version "4.17.15"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+
+long@^3.1.0:
+  version "3.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/long/-/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
+  integrity sha1-2CG3E4yhy1gcFymQ7xTbIAtcR0s=
+
+lru-cache@^4.1.3:
+  version "4.1.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
+  integrity sha1-i75Q6oW+1ZvJ4z3KuCNe6bz0Q80=
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
+
+lru-cache@~4.0.0:
+  version "4.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lru-cache/-/lru-cache-4.0.2.tgz#1d17679c069cda5d040991a09dbc2c0db377e55e"
+  integrity sha1-HRdnnAac2l0ECZGgnbwsDbN35V4=
+  dependencies:
+    pseudomap "^1.0.1"
+    yallist "^2.0.0"
+
+lru-memoizer@^2.0.1:
+  version "2.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lru-memoizer/-/lru-memoizer-2.0.1.tgz#f21e015bb6856483f574070be11ca16b0c010693"
+  integrity sha1-8h4BW7aFZIP1dAcL4RyhawwBBpM=
+  dependencies:
+    lodash.clonedeep "^4.5.0"
+    lru-cache "~4.0.0"
+
+lynx@^0.2.0:
+  version "0.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/lynx/-/lynx-0.2.0.tgz#79e6674530da4183e87953bd686171e070da50b9"
+  integrity sha1-eeZnRTDaQYPoeVO9aGFx4HDaULk=
+  dependencies:
+    mersenne "~0.0.3"
+    statsd-parser "~0.0.4"
+
+measured@^1.0.0:
+  version "1.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/measured/-/measured-1.1.0.tgz#7f6a33adee77bc67a1648968c573608c291b9ac4"
+  integrity sha1-f2ozre53vGehZIloxXNgjCkbmsQ=
+  dependencies:
+    inherits "^2.0"
+
+memory-streams@^0.1.0:
+  version "0.1.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/memory-streams/-/memory-streams-0.1.3.tgz#d9b0017b4b87f1d92f55f2745c9caacb1dc93ceb"
+  integrity sha1-2bABe0uH8dkvVfJ0XJyqyx3JPOs=
+  dependencies:
+    readable-stream "~1.0.2"
+
+merge-dictionaries@^0.0.3:
+  version "0.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/merge-dictionaries/-/merge-dictionaries-0.0.3.tgz#c4de4d58dbb25e4c2823aa30cb8e1539069eb757"
+  integrity sha1-xN5NWNuyXkwoI6owy44VOQaet1c=
+  dependencies:
+    "@sailshq/lodash" "^3.10.2"
+
+mersenne@~0.0.3:
+  version "0.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mersenne/-/mersenne-0.0.4.tgz#401fdec7ec21cdb9e03cd3d3021398da21b27085"
+  integrity sha1-QB/ex+whzbngPNPTAhOY2iGycIU=
+
+methods@^1.1.1, methods@~1.1.1:
+  version "1.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
+  integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+
+mime-db@1.43.0:
+  version "1.43.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mime-db/-/mime-db-1.43.0.tgz#0a12e0502650e473d735535050e7c8f4eb4fae58"
+  integrity sha1-ChLgUCZQ5HPXNVNQUOfI9OtPrlg=
+
+mime-types@^2.1.12, mime-types@^2.1.3, mime-types@~2.1.19:
+  version "2.1.26"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mime-types/-/mime-types-2.1.26.tgz#9c921fc09b7e149a65dfdc0da4d20997200b0a06"
+  integrity sha1-nJIfwJt+FJpl39wNpNIJlyALCgY=
+  dependencies:
+    mime-db "1.43.0"
+
+mime@1.3.4:
+  version "1.3.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mime/-/mime-1.3.4.tgz#115f9e3b6b3daf2959983cb38f149a2d40eb5d53"
+  integrity sha1-EV+eO2s9rylZmDyzjxSaLUDrXVM=
+
+mime@^1.4.1, mime@^1.5.0:
+  version "1.6.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
+  integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
+
+minimalistic-assert@^1.0.0:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+  integrity sha1-LhlN4ERibUoQ5/f7wAznPoPk1cc=
+
+"minimatch@2 || 3":
+  version "3.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
+  integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimist@0.0.8:
+  version "0.0.8"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+  integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+
+mkdirp@~0.5.1:
+  version "0.5.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
+  integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  dependencies:
+    minimist "0.0.8"
+
 moment-timezone@^0.5.27:
   version "0.5.27"
   resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/moment-timezone/-/moment-timezone-0.5.27.tgz#73adec8139b6fe30452e78f210f27b1f346b8877"
@@ -9,7 +1182,664 @@ moment-timezone@^0.5.27:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0":
+moment@2.x.x, "moment@>= 2.9.0", moment@^2.10.6, moment@^2.17.1:
   version "2.24.0"
   resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s=
+
+ms@2.0.0:
+  version "2.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+  integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+
+ms@^2.0.0, ms@^2.1.1, ms@^2.1.2:
+  version "2.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
+
+mv@~2:
+  version "2.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/mv/-/mv-2.1.1.tgz#ae6ce0d6f6d5e0a4f7d893798d03c1ea9559b6a2"
+  integrity sha1-rmzg1vbV4KT32JN5jQPB6pVZtqI=
+  dependencies:
+    mkdirp "~0.5.1"
+    ncp "~2.0.0"
+    rimraf "~2.4.0"
+
+nan@^2.14.0:
+  version "2.14.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
+  integrity sha1-eBj3IgJ7JFmobwKV1DTR/CM2xSw=
+
+nanoid@^2.1.0:
+  version "2.1.9"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/nanoid/-/nanoid-2.1.9.tgz#edc71de7b16fc367bbb447c7a638ccebe07a17a1"
+  integrity sha1-7ccd57Fvw2e7tEfHpjjM6+B6F6E=
+
+ncp@~2.0.0:
+  version "2.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
+  integrity sha1-GVoh1sRuNh0vsSgbo4uR6d9727M=
+
+negotiator@^0.6.1:
+  version "0.6.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
+  integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
+
+node-cache@^4.2.0:
+  version "4.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/node-cache/-/node-cache-4.2.1.tgz#efd8474dee4edec4138cdded580f5516500f7334"
+  integrity sha1-79hHTe5O3sQTjN3tWA9VFlAPczQ=
+  dependencies:
+    clone "2.x"
+    lodash "^4.17.15"
+
+node-forge@^0.7.1:
+  version "0.7.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/node-forge/-/node-forge-0.7.6.tgz#fdf3b418aee1f94f0ef642cd63486c77ca9724ac"
+  integrity sha1-/fO0GK7h+U8O9kLNY0hsd8qXJKw=
+
+node-jose@^0.11.0:
+  version "0.11.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/node-jose/-/node-jose-0.11.1.tgz#e8fe4c2e6ac11b064dca4cdd3f7adcf22b4a74dd"
+  integrity sha1-6P5MLmrBGwZNykzdP3rc8itKdN0=
+  dependencies:
+    b64u "^2.0.0"
+    es6-promise "^4.0.5"
+    lodash.assign "^4.0.8"
+    lodash.clone "^4.3.2"
+    lodash.fill "^3.2.2"
+    lodash.flatten "^4.2.0"
+    lodash.intersection "^4.1.2"
+    lodash.merge "^4.3.5"
+    lodash.omit "^4.2.1"
+    lodash.partialright "^4.1.3"
+    lodash.pick "^4.2.0"
+    lodash.uniq "^4.2.1"
+    long "^3.1.0"
+    node-forge "^0.7.1"
+    uuid "^3.0.1"
+
+node-uuid@^1.4.7:
+  version "1.4.8"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
+  integrity sha1-sEDrCSOWivq/jTL7HxfxFn/auQc=
+
+non-literal@0.0.3:
+  version "0.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/non-literal/-/non-literal-0.0.3.tgz#8804a58732e1365d6f6020d2af633c285393a42a"
+  integrity sha1-iASlhzLhNl1vYCDSr2M8KFOTpCo=
+
+oauth-sign@~0.9.0:
+  version "0.9.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
+  integrity sha1-R6ewFrqmi1+g7PPe4IqFxnmsZFU=
+
+object-assign@^2.0.0:
+  version "2.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/object-assign/-/object-assign-2.1.1.tgz#43c36e5d569ff8e4816c4efa8be02d26967c18aa"
+  integrity sha1-Q8NuXVaf+OSBbE76i+AtJpZ8GKo=
+
+obuf@^1.0.0, obuf@^1.1.1:
+  version "1.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
+  integrity sha1-Cb6jND1BhZ69RGKS0RydTbYZCE4=
+
+once@^1.3.0, once@^1.4.0:
+  version "1.4.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
+  integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+  dependencies:
+    wrappy "1"
+
+optimist@~0.3.5:
+  version "0.3.7"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/optimist/-/optimist-0.3.7.tgz#c90941ad59e4273328923074d2cf2e7cbc6ec0d9"
+  integrity sha1-yQlBrVnkJzMokjB00s8ufLxuwNk=
+  dependencies:
+    wordwrap "~0.0.2"
+
+path-is-absolute@^1.0.0:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
+  integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+
+path-parse@^1.0.6:
+  version "1.0.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+  integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+pidusage@^1.2.0:
+  version "1.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/pidusage/-/pidusage-1.2.0.tgz#65ee96ace4e08a4cd3f9240996c85b367171ee92"
+  integrity sha1-Ze6WrOTgikzT+SQJlshbNnFx7pI=
+
+precond@0.2:
+  version "0.2.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/precond/-/precond-0.2.3.tgz#aa9591bcaa24923f1e0f4849d240f47efc1075ac"
+  integrity sha1-qpWRvKokkj8eD0hJ0kD0fvwQdaw=
+
+process-nextick-args@~2.0.0:
+  version "2.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
+  integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
+
+properties@^1.2.1:
+  version "1.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/properties/-/properties-1.2.1.tgz#0ee97a7fc020b1a2a55b8659eda4aa8d869094bd"
+  integrity sha1-Dul6f8AgsaKlW4ZZ7aSqjYaQlL0=
+
+pseudomap@^1.0.1, pseudomap@^1.0.2:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+  integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
+
+psl@^1.1.24:
+  version "1.7.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/psl/-/psl-1.7.0.tgz#f1c4c47a8ef97167dea5d6bbf4816d736e884a3c"
+  integrity sha1-8cTEeo75cWfepda79IFtc26ISjw=
+
+punycode@1.3.2:
+  version "1.3.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
+  integrity sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
+
+punycode@^1.4.1:
+  version "1.4.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
+  integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
+
+punycode@^2.1.0:
+  version "2.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+  integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
+
+pupa@^1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/pupa/-/pupa-1.0.0.tgz#9a9568a5af7e657b8462a6e9d5328743560ceff6"
+  integrity sha1-mpVopa9+ZXuEYqbp1TKHQ1YM7/Y=
+
+qs@2.3.3:
+  version "2.3.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/qs/-/qs-2.3.3.tgz#e9e85adbe75da0bbe4c8e0476a086290f863b404"
+  integrity sha1-6eha2+ddoLvkyOBHaghikPhjtAQ=
+
+qs@^6.5.1, qs@^6.5.2:
+  version "6.9.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
+  integrity sha1-IAgsZct4IjY1qxqerKiHWim/jsk=
+
+qs@~6.5.2:
+  version "6.5.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
+  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+
+querystring@0.2.0:
+  version "0.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
+  integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+
+readable-stream@1.0.27-1:
+  version "1.0.27-1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/readable-stream/-/readable-stream-1.0.27-1.tgz#6b67983c20357cefd07f0165001a16d710d91078"
+  integrity sha1-a2eYPCA1fO/QfwFlABoW1xDZEHg=
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.1"
+    isarray "0.0.1"
+    string_decoder "~0.10.x"
+
+readable-stream@^2.0.1, readable-stream@^2.2.9, readable-stream@^2.3.5:
+  version "2.3.7"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
+    util-deprecate "~1.0.1"
+
+readable-stream@~1.0.2:
+  version "1.0.34"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
+  integrity sha1-Elgg40vIQtLyqq+v5MKRbuMsFXw=
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.1"
+    isarray "0.0.1"
+    string_decoder "~0.10.x"
+
+reduce-component@1.0.1:
+  version "1.0.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/reduce-component/-/reduce-component-1.0.1.tgz#e0c93542c574521bea13df0f9488ed82ab77c5da"
+  integrity sha1-4Mk1QsV0UhvqE98PlIjtgqt3xdo=
+
+request@^2.85.0, request@^2.88.0:
+  version "2.88.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
+  integrity sha1-nC/KT301tZLv5Xx/ClXoEFIST+8=
+  dependencies:
+    aws-sign2 "~0.7.0"
+    aws4 "^1.8.0"
+    caseless "~0.12.0"
+    combined-stream "~1.0.6"
+    extend "~3.0.2"
+    forever-agent "~0.6.1"
+    form-data "~2.3.2"
+    har-validator "~5.1.0"
+    http-signature "~1.2.0"
+    is-typedarray "~1.0.0"
+    isstream "~0.1.2"
+    json-stringify-safe "~5.0.1"
+    mime-types "~2.1.19"
+    oauth-sign "~0.9.0"
+    performance-now "^2.1.0"
+    qs "~6.5.2"
+    safe-buffer "^5.1.2"
+    tough-cookie "~2.4.3"
+    tunnel-agent "^0.6.0"
+    uuid "^3.3.2"
+
+resolve@^1.2.0:
+  version "1.14.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/resolve/-/resolve-1.14.2.tgz#dbf31d0fa98b1f29aa5169783b9c290cb865fea2"
+  integrity sha1-2/MdD6mLHymqUWl4O5wpDLhl/qI=
+  dependencies:
+    path-parse "^1.0.6"
+
+restify-cookies@^0.2.2:
+  version "0.2.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/restify-cookies/-/restify-cookies-0.2.6.tgz#15f2002f379d6b15d76f72c60bb5c862b96303bc"
+  integrity sha1-FfIALzedaxXXb3LGC7XIYrljA7w=
+  dependencies:
+    cookie "^0.4.0"
+
+restify-cors-middleware@1.1.99:
+  version "1.1.99"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/restify-cors-middleware/-/restify-cors-middleware-1.1.99.tgz#04d0c531c3bb09e659cf3d5287b4618ccf68b7eb"
+  integrity sha1-BNDFMcO7CeZZzz1Sh7RhjM9ot+s=
+  dependencies:
+    assert-plus "^1.0.0"
+
+restify-errors@^5.0.0:
+  version "5.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/restify-errors/-/restify-errors-5.0.0.tgz#668717e100683eec6ce0d515f89ff1dbec254a8d"
+  integrity sha1-ZocX4QBoPuxs4NUV+J/x2+wlSo0=
+  dependencies:
+    assert-plus "^1.0.0"
+    lodash "^4.2.1"
+    verror "^1.8.1"
+  optionalDependencies:
+    safe-json-stringify "^1.0.3"
+
+restify@^7.1.1:
+  version "7.7.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/restify/-/restify-7.7.0.tgz#4e0e3884fc8716f14bea292c2957ca706fc427f7"
+  integrity sha1-Tg44hPyHFvFL6iksKVfKcG/EJ/c=
+  dependencies:
+    assert-plus "^1.0.0"
+    bunyan "^1.8.12"
+    csv "^1.1.1"
+    escape-regexp-component "^1.0.2"
+    ewma "^2.0.1"
+    find-my-way "^1.13.0"
+    formidable "^1.2.1"
+    http-signature "^1.2.0"
+    lodash "^4.17.10"
+    lru-cache "^4.1.3"
+    mime "^1.5.0"
+    negotiator "^0.6.1"
+    once "^1.4.0"
+    pidusage "^1.2.0"
+    qs "^6.5.2"
+    restify-errors "^5.0.0"
+    semver "^5.4.1"
+    spdy "^3.4.7"
+    uuid "^3.1.0"
+    vasync "^1.6.4"
+    verror "^1.10.0"
+  optionalDependencies:
+    dtrace-provider "^0.8.1"
+
+ret@~0.1.10:
+  version "0.1.15"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
+  integrity sha1-uKSCXVvbH8P29Twrwz+BOIaBx7w=
+
+rimraf@~2.4.0:
+  version "2.4.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/rimraf/-/rimraf-2.4.5.tgz#ee710ce5d93a8fdb856fb5ea8ff0e2d75934b2da"
+  integrity sha1-7nEM5dk6j9uFb7Xqj/Di11k0sto=
+  dependencies:
+    glob "^6.0.1"
+
+rsa-pem-to-jwk@^1.1.3:
+  version "1.1.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/rsa-pem-to-jwk/-/rsa-pem-to-jwk-1.1.3.tgz#245e76bdb7e7234cfee7ca032d31b54c38fab98e"
+  integrity sha1-JF52vbfnI0z+58oDLTG1TDj6uY4=
+  dependencies:
+    object-assign "^2.0.0"
+    rsa-unpack "0.0.6"
+
+rsa-unpack@0.0.6:
+  version "0.0.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/rsa-unpack/-/rsa-unpack-0.0.6.tgz#f50ebd56a628378e631f297161026ce9ab4eddba"
+  integrity sha1-9Q69VqYoN45jHylxYQJs6atO3bo=
+  dependencies:
+    optimist "~0.3.5"
+
+safe-buffer@^5.0.1, safe-buffer@^5.1.2:
+  version "5.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
+  integrity sha1-t02uxJsRSPiMZLaNSbHoFcHy9Rk=
+
+safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+  version "5.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
+  integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
+
+safe-json-stringify@^1.0.3, safe-json-stringify@~1:
+  version "1.2.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
+  integrity sha1-NW5EvJjx+TzkXfFLzXwBzahuCv0=
+
+safe-regex@^1.1.0:
+  version "1.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/safe-regex/-/safe-regex-1.1.0.tgz#40a3669f3b077d1e943d44629e157dd48023bf2e"
+  integrity sha1-QKNmnzsHfR6UPURinhV91IAjvy4=
+  dependencies:
+    ret "~0.1.10"
+
+safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+  version "2.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+
+sax@1.2.1:
+  version "1.2.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
+  integrity sha1-e45lYZCyKOgaZq6nSEgNgozS03o=
+
+sax@>=0.6.0:
+  version "1.2.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
+
+seamless-immutable@^7.0.1:
+  version "7.1.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/seamless-immutable/-/seamless-immutable-7.1.4.tgz#6e9536def083ddc4dea0207d722e0e80d0f372f8"
+  integrity sha1-bpU23vCD3cTeoCB9ci4OgNDzcvg=
+
+select-hose@^2.0.0:
+  version "2.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
+  integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
+
+semver-store@^0.3.0:
+  version "0.3.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/semver-store/-/semver-store-0.3.0.tgz#ce602ff07df37080ec9f4fb40b29576547befbe9"
+  integrity sha1-zmAv8H3zcIDsn0+0CylXZUe+++k=
+
+semver@^5.4.1, semver@^5.6.0:
+  version "5.7.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
+  integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
+
+shortid@^2.2.6:
+  version "2.2.15"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/shortid/-/shortid-2.2.15.tgz#2b902eaa93a69b11120373cd42a1f1fe4437c122"
+  integrity sha1-K5AuqpOmmxESA3PNQqHx/kQ3wSI=
+  dependencies:
+    nanoid "^2.1.0"
+
+spdy-transport@^2.0.18:
+  version "2.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/spdy-transport/-/spdy-transport-2.1.1.tgz#c54815d73858aadd06ce63001e7d25fa6441623b"
+  integrity sha1-xUgV1zhYqt0GzmMAHn0l+mRBYjs=
+  dependencies:
+    debug "^2.6.8"
+    detect-node "^2.0.3"
+    hpack.js "^2.1.6"
+    obuf "^1.1.1"
+    readable-stream "^2.2.9"
+    safe-buffer "^5.0.1"
+    wbuf "^1.7.2"
+
+spdy@^3.4.7:
+  version "3.4.7"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/spdy/-/spdy-3.4.7.tgz#42ff41ece5cc0f99a3a6c28aabb73f5c3b03acbc"
+  integrity sha1-Qv9B7OXMD5mjpsKKq7c/XDsDrLw=
+  dependencies:
+    debug "^2.6.8"
+    handle-thing "^1.2.5"
+    http-deceiver "^1.2.7"
+    safe-buffer "^5.0.1"
+    select-hose "^2.0.0"
+    spdy-transport "^2.0.18"
+
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+sshpk@^1.14.1, sshpk@^1.7.0:
+  version "1.16.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/sshpk/-/sshpk-1.16.1.tgz#fb661c0bef29b39db40769ee39fa70093d6f6877"
+  integrity sha1-+2YcC+8ps520B2nuOfpwCT1vaHc=
+  dependencies:
+    asn1 "~0.2.3"
+    assert-plus "^1.0.0"
+    bcrypt-pbkdf "^1.0.0"
+    dashdash "^1.12.0"
+    ecc-jsbn "~0.1.1"
+    getpass "^0.1.1"
+    jsbn "~0.1.0"
+    safer-buffer "^2.0.2"
+    tweetnacl "~0.14.0"
+
+statsd-parser@~0.0.4:
+  version "0.0.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/statsd-parser/-/statsd-parser-0.0.4.tgz#cbd243953cc42effd548b5d22388ed689ec639bd"
+  integrity sha1-y9JDlTzELv/VSLXSI4jtaJ7GOb0=
+
+stream-transform@^0.2.2:
+  version "0.2.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/stream-transform/-/stream-transform-0.2.2.tgz#75867487f49528f8bf1d82499658753d02df7838"
+  integrity sha1-dYZ0h/SVKPi/HYJJllh1PQLfeDg=
+
+string-template@^1.0.0:
+  version "1.0.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/string-template/-/string-template-1.0.0.tgz#9e9f2233dc00f218718ec379a28a5673ecca8b96"
+  integrity sha1-np8iM9wA8hhxjsN5oopWc+zKi5Y=
+
+string_decoder@~0.10.x:
+  version "0.10.31"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+  integrity sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  integrity sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=
+  dependencies:
+    safe-buffer "~5.1.0"
+
+superagent@^1.5.0:
+  version "1.8.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/superagent/-/superagent-1.8.5.tgz#1c0ddc3af30e80eb84ebc05cb2122da8fe940b55"
+  integrity sha1-HA3cOvMOgOuE68BcshItqP6UC1U=
+  dependencies:
+    component-emitter "~1.2.0"
+    cookiejar "2.0.6"
+    debug "2"
+    extend "3.0.0"
+    form-data "1.0.0-rc3"
+    formidable "~1.0.14"
+    methods "~1.1.1"
+    mime "1.3.4"
+    qs "2.3.3"
+    readable-stream "1.0.27-1"
+    reduce-component "1.0.1"
+
+superagent@^3.8.3:
+  version "3.8.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/superagent/-/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
+  integrity sha1-Rg6g29t9WxG8T3jeulZfhqF44Sg=
+  dependencies:
+    component-emitter "^1.2.0"
+    cookiejar "^2.1.0"
+    debug "^3.1.0"
+    extend "^3.0.0"
+    form-data "^2.3.1"
+    formidable "^1.2.0"
+    methods "^1.1.1"
+    mime "^1.4.1"
+    qs "^6.5.1"
+    readable-stream "^2.3.5"
+
+topo@1.x.x:
+  version "1.1.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/topo/-/topo-1.1.0.tgz#e9d751615d1bb87dc865db182fa1ca0a5ef536d5"
+  integrity sha1-6ddRYV0buH3IZdsYL6HKCl71NtU=
+  dependencies:
+    hoek "2.x.x"
+
+tough-cookie@~2.4.3:
+  version "2.4.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/tough-cookie/-/tough-cookie-2.4.3.tgz#53f36da3f47783b0925afa06ff9f3b165280f781"
+  integrity sha1-U/Nto/R3g7CSWvoG/587FlKA94E=
+  dependencies:
+    psl "^1.1.24"
+    punycode "^1.4.1"
+
+traverse@^0.6.6:
+  version "0.6.6"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
+  integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
+
+tunnel-agent@^0.6.0:
+  version "0.6.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
+  integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+  dependencies:
+    safe-buffer "^5.0.1"
+
+tweetnacl@^0.14.3, tweetnacl@~0.14.0:
+  version "0.14.5"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
+  integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+
+ultron@~1.1.0:
+  version "1.1.1"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
+  integrity sha1-n+FTahCmZKZSZqHjzPhf02MCvJw=
+
+uri-js@^4.2.2:
+  version "4.2.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
+  integrity sha1-lMVA4f93KVbiKZUHwBCupsiDjrA=
+  dependencies:
+    punycode "^2.1.0"
+
+url@0.10.3:
+  version "0.10.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/url/-/url-0.10.3.tgz#021e4d9c7705f21bbf37d03ceb58767402774c64"
+  integrity sha1-Ah5NnHcF8hu/N9A861h2dAJ3TGQ=
+  dependencies:
+    punycode "1.3.2"
+    querystring "0.2.0"
+
+util-deprecate@~1.0.1:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+  integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+uuid@3.3.2:
+  version "3.3.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha1-G0r0lV6zB3xQHCOHL8ZROBFYcTE=
+
+uuid@^3.0.1, uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2:
+  version "3.3.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
+  integrity sha1-RWjwIW54dg7h2/Ok0s9T4iQRKGY=
+
+vasync@^1.6.4:
+  version "1.6.4"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/vasync/-/vasync-1.6.4.tgz#dfe93616ad0e7ae801b332a9d88bfc5cdc8e1d1f"
+  integrity sha1-3+k2Fq0OeugBszKp2Iv8XNyOHR8=
+  dependencies:
+    verror "1.6.0"
+
+verror@1.10.0, verror@^1.10.0, verror@^1.8.1:
+  version "1.10.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
+  integrity sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
+  dependencies:
+    assert-plus "^1.0.0"
+    core-util-is "1.0.2"
+    extsprintf "^1.2.0"
+
+verror@1.6.0:
+  version "1.6.0"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/verror/-/verror-1.6.0.tgz#7d13b27b1facc2e2da90405eb5ea6e5bdd252ea5"
+  integrity sha1-fROyex+swuLakEBetepuW90lLqU=
+  dependencies:
+    extsprintf "1.2.0"
+
+wbuf@^1.1.0, wbuf@^1.7.2:
+  version "1.7.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/wbuf/-/wbuf-1.7.3.tgz#c1d8d149316d3ea852848895cb6a0bfe887b87df"
+  integrity sha1-wdjRSTFtPqhShIiVy2oL/oh7h98=
+  dependencies:
+    minimalistic-assert "^1.0.0"
+
+wordwrap@~0.0.2:
+  version "0.0.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
+
+wrappy@1:
+  version "1.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+  integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+ws@^3.3.2:
+  version "3.3.3"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
+  integrity sha1-8c+E/i1ekB686U767OeF8YeiKPI=
+  dependencies:
+    async-limiter "~1.0.0"
+    safe-buffer "~5.1.0"
+    ultron "~1.1.0"
+
+xml2js@0.4.19:
+  version "0.4.19"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/xml2js/-/xml2js-0.4.19.tgz#686c20f213209e94abf0d1bcf1efaa291c7827a7"
+  integrity sha1-aGwg8hMgnpSr8NG88e+qKRx4J6c=
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~9.0.1"
+
+xmlbuilder@~9.0.1:
+  version "9.0.7"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
+  integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
+
+xtend@^4.0.1:
+  version "4.0.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
+  integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
+
+yallist@^2.0.0, yallist@^2.1.2:
+  version "2.1.2"
+  resolved "https://rbcplatform.jfrog.io/rbcplatform/api/npm/npm-virtual/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
+  integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=

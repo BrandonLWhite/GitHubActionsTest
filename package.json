@@ -6,6 +6,7 @@
   "author": "Brandon White <brandonlwhite@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "hotschedules-service-container": "^2.4.0",
     "moment-timezone": "^0.5.27"
   }
 }
